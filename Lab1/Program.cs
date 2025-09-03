@@ -43,3 +43,40 @@ int what = max + 3;
 Console.WriteLine($"an example of overflow: {what}");
 
 //Step 4
+double aa = 5;
+double bb = 4;
+double cc = 2;
+double dd = (aa + bb) / cc;
+Console.WriteLine(dd);
+
+aa = 19;
+bb = 23;
+cc = 8;
+dd = (a + b) / c;
+Console.WriteLine(dd);
+
+double dMax = double.MaxValue;
+double dMin = double.MinValue;
+Console.WriteLine($"The range of double is {dMin} to {dMax}");
+
+double third = 1.0 / 3.0;
+Console.WriteLine(third);
+
+//Step 5
+decimal deMin = decimal.MinValue;
+decimal deMax = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {deMin} to {deMax}");
+
+aa = 1.0;
+bb = 3.0;
+Console.WriteLine(aa / bb);
+
+decimal ccc = 1.0M;
+decimal ddd = 3.0M;
+Console.WriteLine(ccc / ddd);
+
+//Step 6
+double radius = 2.5;
+double area = (radius * radius) * Math.PI;
+
+Console.WriteLine($"The area for a circle with a radius of {radius} is {area}");
